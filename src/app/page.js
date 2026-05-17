@@ -8,7 +8,7 @@ export default function HomePage() {
       <Hero />
 
       <section className="container mx-auto px-4 py-16">
-        <h2 className="text-2xl font-bold mb-8">Featured Products</h2>
+        <h2 className="text-2xl font-bold mb-8">My favourite language is JavaScript</h2>
 
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {products.map((product) => (
